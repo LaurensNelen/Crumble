@@ -1,0 +1,41 @@
+body {
+    background-color: #f0f0f0;
+}
+
+section {
+    margin: 30px 30px 30px 30px;
+}
+
+h3 {
+    color: #2a9c9d;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #fdb078;
+}
+
+footer {
+    background-color: #2a9c9d
+}
+
+footer h6 {
+    color: #f78e43;
+}
+
+footer p a {
+    color: #fdb078;
+}
+
+footer p a:hover {
+    color: #f78e43;
+}
+
+.btn-sm {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.fab {
+    color: #2a9c9d;
+}
