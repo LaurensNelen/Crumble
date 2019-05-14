@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+}
+
+section {
+    margin: 30px 30px 30px 30px;
+}
+
+h3 {
+    color: #2a9c9d;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #fdb078;
+}
+
+#contact .btn-success {
+    background-color: #2a9c9d;
+}
+
+footer {
+    background-color: #2a9c9d;
+    h6 {
+        color: #f78e43;
+    }
+    p a {
+        color: #fdb078;
+        &:hover {
+            color: #f78e43;
+        }
+    }
+    .btn-sm {
+        border-radius: 50%;
+        background-color: white;
+    }
+    .fab {
+        color: #2a9c9d;
+    }
+}
+
+#Openinghours th {
+    background-color: #2a9c9d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fdb078;
+}
