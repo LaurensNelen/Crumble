@@ -1,5 +1,9 @@
+$color: #2a9c9d;
+$textcolor: #fdb078;
+$darktextcolor: #f78e43;
+$sectionbackgroundcolor: #f0f0f0;
 body {
-    background-color: #f0f0f0;
+    background-color: $sectionbackgroundcolor;
 }
 
 section {
@@ -7,43 +11,42 @@ section {
 }
 
 h3 {
-    color: #2a9c9d;
+    color: $color;
     margin-bottom: 30px;
 }
 
-p {
-    color: #fdb078;
-}
-
 #contact .btn-success {
-    background-color: #2a9c9d;
+    background-color: $color;
 }
 
 footer {
-    background-color: #2a9c9d;
+    background-color: $color;
     h6 {
-        color: #f78e43;
+        color: $darktextcolor;
+    }
+    p {
+        color: $textcolor;
     }
     p a {
-        color: #fdb078;
+        color: $textcolor;
         &:hover {
-            color: #f78e43;
+            color: $darktextcolor;
         }
     }
     .btn-sm {
         border-radius: 50%;
-        background-color: white;
+        background-color: $sectionbackgroundcolor;
     }
     .fab {
-        color: #2a9c9d;
+        color: $color;
     }
 }
 
 #Openinghours th {
-    background-color: #2a9c9d;
+    background-color: $color;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #fdb078;
+    background-color: $textcolor;
 }

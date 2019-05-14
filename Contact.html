@@ -5,6 +5,7 @@
     <title>Crumble</title>
     <!--meta tags -->
     <meta charset="UTF-8">
+    <meta name="description" content="Crumble.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -17,10 +18,11 @@
 <body>
     <!-- store-info -->
     <section id="Openinghours">
+        <h3 class="text-center">Opening hours</h3>
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <h3>Opening hours</h3>
+
                     <table class="w-100">
                         <tr>
                             <th>Day</th>
@@ -35,7 +37,7 @@
                                 <td>9Am - 5PM</td>
                             </tr>
                             <tr>
-                                <td>wednesday</td>
+                                <td>Wednesday</td>
                                 <td>9Am - 5PM</td>
                             </tr>
                             <tr>
@@ -48,17 +50,17 @@
                             </tr>
                             <tr>
                                 <td>Saturday</td>
-                                <td>9Am - 5PM</td>
+                                <td>10Am - 6PM</td>
                             </tr>
                             <tr>
-                                <td>Sonday</td>
-                                <td>9Am - 5PM</td>
+                                <td>Sunday</td>
+                                <td> <strong>Closed</strong> </td>
                             </tr>
                     </table>
                 </div>
 
                 <div class="col-lg-3">
-                    <img src="images/storefront.jpg" alt="" class="img-fluid">
+                    <img src="images/storefront.jpg" alt="store front" class="img-fluid" id="img">
                 </div>
             </div>
         </div>
@@ -67,8 +69,9 @@
         <div class="container-fluid">
             <h3 class="title text-center">Address</h3>
             <div class="address_mail_footer_grids">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645338.3341707861!2d4.08835022973003!3d50.81536465195998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7c8f74a11cd%3A0x56998eec0e4a84b7!2sBeCode+Antwerpen!5e0!3m2!1snl!2sbe!4v1557757201974!5m2!1snl!2sbe"
+                <iframe title="Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9995.78963565583!2d4.400511121448878!3d51.22004446409737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7c8f74a11cd%3A0x56998eec0e4a84b7!2sBeCode+Antwerpen!5e0!3m2!1snl!2sbe!4v1557820076387!5m2!1snl!2sbe"
                     width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
             </div>
         </div>
     </section>
@@ -183,22 +186,17 @@
                     <div class="text-center text-md-right">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
-                                <a class="btn-sm rgba-white-slight mx-1">
+                                <a class="btn-sm rgba-white-slight mx-1" aria-label="Go to Facebook" href="https://www.facebook.com/">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1" aria-label="Go to Twitter" href="https://www.linkedin.com/">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1" aria-label="Go to Linkedin" href="https://twitter.com/?lang=nl">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
